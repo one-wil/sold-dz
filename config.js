@@ -3,11 +3,6 @@
 // ⚙️ ملف الإعدادات الرئيسي للمتجر
 // =============================================================================
 
-const STOREMASTER_LICENSE = {
-    storeId: "__STOREMASTER_STORE_ID__",
-    token: "__STOREMASTER_TOKEN__"
-};
-
 const STORE_CONFIG = {
   "PRODUCTS": {},
   "PRODUCT_ORDER": {},
@@ -277,7 +272,7 @@ const STORE_CONFIG = {
     "promoDiscountProducts": []
   },
   "STORE_INFO": {
-    "name": "",
+    "name": "Sold-dz",
     "storeIcon": "-",
     "storeTitle": "-",
     "tagline": "",
@@ -1234,7 +1229,8 @@ const STORE_CONFIG = {
     "مسك",
     "عنبر"
   ],
-  "ORDERS": []
+  "ORDERS": [],
+  "LICENSE_SERVER": "https://storemaster-worker.vivavoir150.workers.dev"
 };
 
 // =============================================================================
